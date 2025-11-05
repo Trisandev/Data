@@ -2,6 +2,7 @@
   "customers": {
     "8972753347": {
       "name": "Ravi Kumar",
+      "village": "Rampur",
       "data": {
         "summary": {
           "totalMilkReceived": "20 Ltr",
@@ -14,11 +15,32 @@
           "totalDays": "25",
           "resolvedBills": "10",
           "nextDelivery": "Tomorrow 6 AM"
+        },
+        "performance": {
+          "months": ["May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+          "milkReceived": [150, 165, 180, 175, 190, 200],
+          "billAmounts": [1200, 1300, 1400, 1560, 1700, 1800],
+          "dailyMilk": [12, 11, 13, 14, 12, 15, 16],
+          "fatPercentage": [3.2, 3.5, 3.7, 3.4, 3.6, 3.8],
+          "payments": [4000, 4100, 4300, 4400, 4550, 4560],
+          "received": 4260,
+          "pending": 300,
+          "prevMonthMilk": [150, 165, 180, 175, 190, 200],
+          "currentMonthMilk": [160, 170, 185, 180, 195, 210],
+          "scatterData": [
+            { "x": 150, "y": 1200 },
+            { "x": 165, "y": 1300 },
+            { "x": 180, "y": 1400 },
+            { "x": 175, "y": 1560 },
+            { "x": 190, "y": 1700 },
+            { "x": 200, "y": 1800 }
+          ]
         }
       }
     },
     "1234567890": {
       "name": "Ankit Sharma",
+      "village": "Shivpur",
       "data": {
         "summary": {
           "totalMilkReceived": "18 Ltr",
@@ -31,23 +53,26 @@
           "totalDays": "22",
           "resolvedBills": "9",
           "nextDelivery": "Tomorrow 5:30 AM"
-        }
-      }
-    },
-    "9988776655": {
-      "name": "Pooja Singh",
-      "data": {
-        "summary": {
-          "totalMilkReceived": "25 Ltr",
-          "totalPrice": "₹600",
-          "pendingAmount": "₹0",
-          "deliveredToday": "15 Ltr"
         },
-        "milkDetails": {
-          "lastUpdate": "7:45 AM",
-          "totalDays": "28",
-          "resolvedBills": "12",
-          "nextDelivery": "Tomorrow 6 AM"
+        "performance": {
+          "months": ["May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+          "milkReceived": [140, 155, 165, 170, 185, 195],
+          "billAmounts": [1100, 1250, 1360, 1450, 1600, 1720],
+          "dailyMilk": [10, 11, 12, 11, 13, 14, 12],
+          "fatPercentage": [3.1, 3.3, 3.4, 3.5, 3.4, 3.6],
+          "payments": [3800, 3950, 4100, 4200, 4400, 4500],
+          "received": 4220,
+          "pending": 180,
+          "prevMonthMilk": [140, 155, 165, 170, 185, 195],
+          "currentMonthMilk": [150, 160, 170, 175, 190, 200],
+          "scatterData": [
+            { "x": 140, "y": 1100 },
+            { "x": 155, "y": 1250 },
+            { "x": 165, "y": 1360 },
+            { "x": 170, "y": 1450 },
+            { "x": 185, "y": 1600 },
+            { "x": 195, "y": 1720 }
+          ]
         }
       }
     }
